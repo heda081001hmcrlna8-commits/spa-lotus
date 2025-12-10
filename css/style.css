@@ -109,10 +109,6 @@ body {
   gap: 12px;
 }
 
-/* -----------------------
-   SECCIÓN CON FONDO (glass)
-------------------------- */
-/* Fondo elegante SOLO en secciones */
 .section-bg {
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
@@ -121,9 +117,6 @@ body {
   margin-top: 30px;
 }
 
-/* -----------------------
-   PROMOCIONES — LISTA
-------------------------- */
 .promos-grid {
   display: flex;
   flex-direction: column;
@@ -303,9 +296,6 @@ select:focus {
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
 
-/* -----------------------
-   FOOTER
-------------------------- */
 .site-footer {
   margin-top: 40px;
   background: #f1e8ff;
@@ -351,3 +341,35 @@ select:focus {
   .brand-img { width: 38px; height: 38px; }
   .promo-card, .treat-card { padding: 16px; }
 }
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .nav-toggle {
+    display: block !important;
+    z-index: 1100;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    background: #ffffffee;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+
