@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lotus Spa - Contacto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="brand" href="index.html">
+      <img src="img/logo.jpg" class="brand-img">
+      <span class="brand-name">Lotus Spa</span>
+    </a>
+    <button class="nav-toggle" id="navToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="promociones.html">Promociones</a></li>
+      <li><a href="tratamientos.html">Tratamientos</a></li>
+      <li><a href="reservaciones.html">Reservaciones</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a class="active" href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="section-bg">
+    <h2>Contacto</h2>
+
+    <div class="contact-grid">
+
+      <form id="contactForm" class="contact-form">
+
+        <label>Nombre completo
+          <input type="text" name="name" required>
+        </label>
+
+        <label>Correo
+          <input type="email" name="email" required>
+        </label>
+
+        <label>Teléfono
+          <input type="text" name="phone">
+        </label>
+
+        <label>Mensaje
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+
+      </form>
+
+      <div class="contact-info">
+
+        <h4>Visítanos</h4>
+        <p><strong>Lotus SPA Studio</strong></p>
+        <p>Melchor Ocampo 193, Local J-08B</p>
+        <p>11300 Ciudad de México, CDMX</p>
+        <p>Tel: 55-1234-5678</p>
+        <p>correo@lotusspa.com</p>
+
+        <h4>Ubicación</h4>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.398972501534!2d-99.1712652!3d19.4384899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d6df2bc55b%3A0x1d8593f94ff2626d!2sMelchor%20Ocampo%20193%2C%20Veronica%20Anzures%2C%2011300%20Ciudad%20de%20México%2C%20CDMX!5e0!3m2!1ses!2smx!4v1700000000000"
+          width="100%"
+          height="300"
+          style="border:0; border-radius:14px;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p class="small">© 2025 Lotus Spa.</p>
+</footer>
+
+</body>
+</html>
